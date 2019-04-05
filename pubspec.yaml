@@ -1,0 +1,24 @@
+name: flutter_native_web_plugin
+description: This is a creation that opens a browser
+version: 0.0.1
+author: Will <willzh@live.cn>
+homepage:
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    androidPackage: com.will.flutter_native_web_plugin
+    pluginClass: FlutterNativeWebPlugin
+
